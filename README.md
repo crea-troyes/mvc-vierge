@@ -26,44 +26,6 @@ Elle est volontairement simple et épurée pour permettre à tous les débutants
 
 Voici l’organisation des fichiers dans cette version du jour 13 :
 
-code.crea-troyes.fr/<br>
-│<br>
-├── public/ (dossier web accessible)<br>
-│   └── assets/<br>
-│       ├── style.css<br>
-│   └── index.php (point d'entrée unique)<br>
-│   └── .htaccess<br>
-│<br>
-├── app/<br>
-│   ├── Controllers/<br>
-│   │   ├── HomeController.php<br>
-│   │<br>
-│   ├── Models/<br>
-│   │   └── Model.php<br>
-│   │<br>
-│   ├── Views/<br>
-│   │   ├── layout.php<br>
-│   │   ├── error.php<br>
-│   │   ├── partials/<br>
-│   │   │   ├── header.php<br>
-│   │   │   └── footer.php<br>
-│   │   └── home/<br>
-│   │       └── index.php<br>
-│   │<br>
-│   ├── Route/<br>
-│   │   └── Router.php (routeur centralisé)<br>
-│   │   └── Routes.php (définition des routes)<br>
-│   │<br>
-│   └── Core/<br>
-│       ├── Controller.php<br>
-|       ├── Database.php<br>
-│       └── View.php (moteur de rendu simplifié)<br>
-│   └── .htaccess (dossier inaccessible)<br>
-│<br>
-├── autoload.php <br>
-├── config.php<br>
-
-
 ```markdown
 code.crea-troyes.fr/
 │
