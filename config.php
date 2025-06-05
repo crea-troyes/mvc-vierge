@@ -5,4 +5,4 @@ define('DB_NAME', 'creacode');
 define('DB_USER', 'root');
 define('DB_PASS', 'root');
 
-define('BASE_URL', '/demo/public/');
+define('BASE_URL', '/public/');
