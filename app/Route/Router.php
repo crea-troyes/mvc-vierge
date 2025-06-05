@@ -38,7 +38,7 @@ class Router
     public function dispatch()
     {
         $method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
-        $basePath = '/demo/public/'; // Adapter si besoin
+        $basePath = '/public/'; // Adapter si besoin
         $requestUri = $_SERVER['REQUEST_URI'] ?? '/';
         $path = parse_url($requestUri, PHP_URL_PATH);
 
