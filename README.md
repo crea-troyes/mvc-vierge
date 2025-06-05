@@ -26,14 +26,14 @@ Elle est volontairement simple et épurée pour permettre à tous les débutants
 
 Voici l’organisation des fichiers dans cette version du jour 13 :
 
-code.crea-troyes.fr/
-│
-├── public/ (dossier web accessible)
-│   └── assets/
-│       ├── style.css
-│   └── index.php (point d'entrée unique)
-│   └── .htaccess
-│
+code.crea-troyes.fr/<br>
+│<br>
+├── public/ (dossier web accessible)<br>
+│   └── assets/<br>
+│       ├── style.css<br>
+│   └── index.php (point d'entrée unique)<br>
+│   └── .htaccess<br>
+│<br>
 ├── app/
 │   ├── Controllers/
 │   │   ├── HomeController.php
