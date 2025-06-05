@@ -7,7 +7,7 @@ $router = new Router();
 // 🔐 Enregistrement des middlewares
 $router->registerMiddleware('auth', function () {
     if (!isset($_SESSION['user'])) {
-        header('Location: /creacode/public/login');
+        header('Location: /public/login');
         return false;
     }
     return true;
