@@ -34,34 +34,34 @@ code.crea-troyes.fr/<br>
 │   └── index.php (point d'entrée unique)<br>
 │   └── .htaccess<br>
 │<br>
-├── app/
-│   ├── Controllers/
-│   │   ├── HomeController.php
-│   │
-│   ├── Models/
-│   │   └── Model.php
-│   │
-│   ├── Views/
-│   │   ├── layout.php
-│   │   ├── error.php
-│   │   ├── partials/
-│   │   │   ├── header.php
-│   │   │   └── footer.php
-│   │   └── home/
-│   │       └── index.php
-│   │
-│   ├── Route/
-│   │   └── Router.php (routeur centralisé)
-│   │   └── Routes.php (définition des routes)
-│   │
-│   └── Core/
-│       ├── Controller.php
-|       ├── Database.php
-│       └── View.php (moteur de rendu simplifié)
-│   └── .htaccess (dossier inaccessible)
-│
-├── autoload.php 
-├── config.php
+├── app/<br>
+│   ├── Controllers/<br>
+│   │   ├── HomeController.php<br>
+│   │<br>
+│   ├── Models/<br>
+│   │   └── Model.php<br>
+│   │<br>
+│   ├── Views/<br>
+│   │   ├── layout.php<br>
+│   │   ├── error.php<br>
+│   │   ├── partials/<br>
+│   │   │   ├── header.php<br>
+│   │   │   └── footer.php<br>
+│   │   └── home/<br>
+│   │       └── index.php<br>
+│   │<br>
+│   ├── Route/<br>
+│   │   └── Router.php (routeur centralisé)<br>
+│   │   └── Routes.php (définition des routes)<br>
+│   │<br>
+│   └── Core/<br>
+│       ├── Controller.php<br>
+|       ├── Database.php<br>
+│       └── View.php (moteur de rendu simplifié)<br>
+│   └── .htaccess (dossier inaccessible)<br>
+│<br>
+├── autoload.php <br>
+├── config.php<br>
 
 ---
 
