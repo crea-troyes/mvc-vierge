@@ -12,7 +12,7 @@ Elle est volontairement simple et épurée pour permettre à tous les débutants
 
 ---
 
-## 📚 Suivre le projet
+## Suivre le projet
 
 - Le site est en développement **en temps réel** à l’adresse :  
   👉 [https://code.crea-troyes.fr](https://code.crea-troyes.fr)
