@@ -63,6 +63,47 @@ code.crea-troyes.fr/<br>
 ├── autoload.php <br>
 ├── config.php<br>
 
+
+```markdown
+code.crea-troyes.fr/
+│
+├── public/                      # Dossier web accessible
+│   ├── assets/
+│   │   └── style.css            # Feuille de style principale
+│   ├── index.php                # Point d'entrée unique de l'application
+│   └── .htaccess                # Redirection vers index.php (URL rewriting)
+│
+├── app/                         # Cœur de l’application (MVC)
+│   ├── Controllers/
+│   │   └── HomeController.php   # Exemple de contrôleur
+│   │
+│   ├── Models/
+│   │   └── Model.php            # Classe modèle de base
+│   │
+│   ├── Views/
+│   │   ├── layout.php           # Layout principal
+│   │   ├── error.php            # Vue d’erreur générique
+│   │   ├── partials/
+│   │   │   ├── header.php       # En-tête HTML
+│   │   │   └── footer.php       # Pied de page HTML
+│   │   └── home/
+│   │       └── index.php        # Vue associée à HomeController
+│   │
+│   ├── Route/
+│   │   ├── Router.php           # Routeur centralisé
+│   │   └── Routes.php           # Fichier de déclaration des routes
+│   │
+│   └── Core/
+│       ├── Controller.php       # Contrôleur parent commun
+│       ├── Database.php         # Connexion PDO centralisée
+│       └── View.php             # Moteur de rendu simplifié
+│
+│   └── .htaccess                # Protection de l’accès aux fichiers sensibles
+│
+├── autoload.php                 # Fonction d’autoload personnalisée
+├── config.php                   # Configuration globale du site
+```
+
 ---
 
 - Le routeur est placé dans `app/Route/Router.php`
